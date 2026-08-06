@@ -1,0 +1,19 @@
+{
+    "name": "phpnitro/ui",
+    "description": "PhpNitro's UI package — the native render engine widgets (Engine\\Native\\*: layout, Canvas draw commands, animations, gestures), device-capability API classes (Engine\\Device\\*), and core drawing primitives.",
+    "license": "MIT",
+    "require": {
+        "php": ">=8.1",
+        "chillerlan/php-qrcode": "^6.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "Engine\\": "src/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Engine\\Tests\\": "tests/"
+        }
+    }
+}
